@@ -1,0 +1,4667 @@
+{
+  "version": 3,
+  "sources": [
+    "../../rantai_adil/contract.py"
+  ],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA2BQ;AAAe;;AAAf;AACA;;AAAc;;AAAd;AACA;AAAoB;AAApB;AACA;AAAiB;AAAjB;AACA;;AAAoB;AAApB;AACA;AAAoB;;;;AAApB;AArBR;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;;AAAA;;;;;;;;;;;AACK;;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;;AAEU;;;;;;;;;AAAA;AAAA;AAFV;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAsBA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAkBU;AAAA;AAAA;AAAA;AAAgB;;AAAhB;AAAP;AAEA;AAAA;;AAAA;AACA;;AAAA;AAAA;AArBH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAyBA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAkBwB;AAAA;AAAA;AAAA;AAAd;;AAAA;AAAP;AAGW;AAAA;AAAA;AAAA;AAAJ;AAAP;AAGO;;;AAAiC;AAAoB;;AAApB;AAAjC;;;;AAAP;AAGkB;AAAA;AAAA;;AAAA;AAAA;AAAA;;;AAAA;AAMlB;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAjCH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;;;;;AAgDwB;AAAA;AAAA;AAAA;AAAd;;AAAA;AAAP;AAGW;AAAA;AAAA;AAAA;AAAJ;AAAP;AAGO;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAP;AAGmB;AACV;AAAjB;AAAA;;AAAA;AAAA;;;AACgC;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAApB;;AAAA;AAAA;;AADK;AAAA;;;;;;AAGF;;AAAoB;;AAApB;AAAP;AAEA;AAAiB;AAAjB;AA1BH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AA8BA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAawB;AAAA;;AAAA;AAAA;AAAd;;AAAA;AAAP;AAGO;AAAA;AAAA;AAAA;AAAP;AAGW;AAAA;;AAAA;AAAA;AAAJ;AAAP;AAGO;AAAA;;AAAoB;;AAApB;AAAP;AAGO;;AAAA;AAAkB;;;;AAAlB;AAAP;AAEA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AA3BH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;;;;;;AAyCwB;AAAA;AAAA;AAAA;AAAd;;AAAA;AAAA;;;AAA4C;AAAA;;AAAA;AAAA;AAAd;;AAAA;AAA9B;;;;AAAP;AAGO;AAAA;AAAA;AAAA;AAAP;AAGW;AAAA;;AAAA;AAAA;AAAJ;AAAP;AAGgB;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AAAP;;;AAAjB;AAAA;;AAAA;AAAA;;;AAC0B;AAAA;AAAA;AAAA;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;;AAEP;;;AAAA;AAAJ;;;AAEkB;AAAA;AAAA;AAAA;AAAoB;;AAAA;AAAA;;AAAA;AAAA;AAApB;AAAqD;;AAAtD;AAGhB;AACa;;AAAA;;;;;;;AADb;;;AAGQ;;;AAHR;AAOA;;;AAAmB;AAAnB;AACA;AAAA;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAhBC;AAAA;AAAA;;;;;;AAkBT;;AAAoB;AAApB;AArCH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;;;;;AAiDU;AAAA;AAAA;AAAA;AAAJ;;;AACQ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AATd;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAUQ;AAAA;AAAA;AAAA;AAAb;;;AACmB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAXd;;;AAYY;AAAA;;AAAA;AAAA;AAAJ;;;AACM;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAbd;;;AAec;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAfd;;;AAyBU;AAAA;AAAA;AAAA;AAAA;AAAA;AARV;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA",
+  "op_pc_offset": 0,
+  "pc_events": {
+    "1": {
+      "subroutine": "algopy.arc4.ARC4Contract.approval_program",
+      "params": {},
+      "block": "main",
+      "stack_in": [],
+      "op": "intcblock 0 1 32 41"
+    },
+    "7": {
+      "op": "bytecblock \"contributors\" \"manager\" \"total_funded\" \"is_locked\" \"is_completed\" \"client\" 0x151f7c75"
+    },
+    "78": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "80": {
+      "op": "bnz main_after_if_else@2",
+      "stack_out": []
+    },
+    "83": {
+      "op": "bytec_1 // \"manager\"",
+      "defined_out": [
+        "\"manager\""
+      ],
+      "stack_out": [
+        "\"manager\""
+      ]
+    },
+    "84": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"manager\"",
+        "tmp%0#2"
+      ],
+      "stack_out": [
+        "\"manager\"",
+        "tmp%0#2"
+      ]
+    },
+    "86": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "87": {
+      "op": "bytec 5 // \"client\"",
+      "defined_out": [
+        "\"client\""
+      ],
+      "stack_out": [
+        "\"client\""
+      ]
+    },
+    "89": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "\"client\"",
+        "tmp%1#2"
+      ],
+      "stack_out": [
+        "\"client\"",
+        "tmp%1#2"
+      ]
+    },
+    "91": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "92": {
+      "op": "bytec_2 // \"total_funded\"",
+      "defined_out": [
+        "\"total_funded\""
+      ],
+      "stack_out": [
+        "\"total_funded\""
+      ]
+    },
+    "93": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "\"total_funded\"",
+        "0"
+      ],
+      "stack_out": [
+        "\"total_funded\"",
+        "0"
+      ]
+    },
+    "94": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "95": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\""
+      ],
+      "stack_out": [
+        "\"is_locked\""
+      ]
+    },
+    "96": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"is_locked\"",
+        "0"
+      ]
+    },
+    "97": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "98": {
+      "op": "bytec 4 // \"is_completed\"",
+      "defined_out": [
+        "\"is_completed\""
+      ],
+      "stack_out": [
+        "\"is_completed\""
+      ]
+    },
+    "100": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "\"is_completed\"",
+        "0"
+      ]
+    },
+    "101": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "102": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\""
+      ],
+      "stack_out": [
+        "\"contributors\""
+      ]
+    },
+    "103": {
+      "op": "pushbytes 0x0000",
+      "defined_out": [
+        "\"contributors\"",
+        "0x0000"
+      ],
+      "stack_out": [
+        "\"contributors\"",
+        "0x0000"
+      ]
+    },
+    "107": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "108": {
+      "block": "main_after_if_else@2",
+      "stack_in": [],
+      "op": "txn NumAppArgs",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "110": {
+      "op": "bz main___algopy_default_create@17",
+      "stack_out": []
+    },
+    "113": {
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "115": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "116": {
+      "error": "OnCompletion must be NoOp",
+      "op": "assert // OnCompletion must be NoOp",
+      "stack_out": []
+    },
+    "117": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "119": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "120": {
+      "op": "pushbytess 0x02bece11 0x7fde39b4 0x4816b302 0xb0311bec 0x127dcaa3 0xd16a729f 0xbbb266ab 0x09c76b68 // method \"hello(string)string\", method \"setup_project(address,address)string\", method \"add_contributor(address,uint64)string\", method \"lock_contributors()string\", method \"fund_project(pay)string\", method \"complete_and_payout()string\", method \"get_project_status()string\", method \"get_contributor_count()uint64\"",
+      "defined_out": [
+        "Method(add_contributor(address,uint64)string)",
+        "Method(complete_and_payout()string)",
+        "Method(fund_project(pay)string)",
+        "Method(get_contributor_count()uint64)",
+        "Method(get_project_status()string)",
+        "Method(hello(string)string)",
+        "Method(lock_contributors()string)",
+        "Method(setup_project(address,address)string)"
+      ],
+      "stack_out": [
+        "Method(hello(string)string)",
+        "Method(setup_project(address,address)string)",
+        "Method(add_contributor(address,uint64)string)",
+        "Method(lock_contributors()string)",
+        "Method(fund_project(pay)string)",
+        "Method(complete_and_payout()string)",
+        "Method(get_project_status()string)",
+        "Method(get_contributor_count()uint64)"
+      ]
+    },
+    "162": {
+      "op": "txna ApplicationArgs 0",
+      "defined_out": [
+        "Method(add_contributor(address,uint64)string)",
+        "Method(complete_and_payout()string)",
+        "Method(fund_project(pay)string)",
+        "Method(get_contributor_count()uint64)",
+        "Method(get_project_status()string)",
+        "Method(hello(string)string)",
+        "Method(lock_contributors()string)",
+        "Method(setup_project(address,address)string)",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "Method(hello(string)string)",
+        "Method(setup_project(address,address)string)",
+        "Method(add_contributor(address,uint64)string)",
+        "Method(lock_contributors()string)",
+        "Method(fund_project(pay)string)",
+        "Method(complete_and_payout()string)",
+        "Method(get_project_status()string)",
+        "Method(get_contributor_count()uint64)",
+        "tmp%6#0"
+      ]
+    },
+    "165": {
+      "op": "match hello setup_project add_contributor lock_contributors fund_project complete_and_payout get_project_status get_contributor_count",
+      "stack_out": []
+    },
+    "183": {
+      "op": "err"
+    },
+    "184": {
+      "block": "main___algopy_default_create@17",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "186": {
+      "op": "!",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "187": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%9#0"
+      ]
+    },
+    "189": {
+      "op": "!",
+      "defined_out": [
+        "tmp%10#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0",
+        "tmp%10#0"
+      ]
+    },
+    "190": {
+      "op": "&&",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
+      ]
+    },
+    "191": {
+      "error": "OnCompletion must be NoOp && can only call when creating",
+      "op": "assert // OnCompletion must be NoOp && can only call when creating",
+      "stack_out": []
+    },
+    "192": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "193": {
+      "op": "return",
+      "stack_out": []
+    },
+    "194": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.hello[routing]",
+      "params": {},
+      "block": "hello",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "197": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "198": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)",
+        "0"
+      ]
+    },
+    "199": {
+      "error": "invalid array length header",
+      "op": "extract_uint16 // on error: invalid array length header",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "200": {
+      "op": "pushint 2 // 2",
+      "defined_out": [
+        "2",
+        "aggregate%array_length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%array_length%0#0",
+        "2"
+      ]
+    },
+    "202": {
+      "op": "+",
+      "defined_out": [
+        "add%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "add%0#0"
+      ]
+    },
+    "203": {
+      "op": "dig 1",
+      "stack_out": [
+        "tmp%0#0",
+        "add%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "205": {
+      "op": "len",
+      "defined_out": [
+        "add%0#0",
+        "len%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "add%0#0",
+        "len%0#0"
+      ]
+    },
+    "206": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "eq%0#0"
+      ]
+    },
+    "207": {
+      "error": "invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
+      "op": "assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "208": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "name#0"
+      ],
+      "stack_out": [
+        "name#0"
+      ]
+    },
+    "211": {
+      "op": "pushbytes \"Hello, \"",
+      "defined_out": [
+        "\"Hello, \"",
+        "name#0"
+      ],
+      "stack_out": [
+        "name#0",
+        "\"Hello, \""
+      ]
+    },
+    "220": {
+      "op": "swap",
+      "stack_out": [
+        "\"Hello, \"",
+        "name#0"
+      ]
+    },
+    "221": {
+      "op": "concat",
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "222": {
+      "op": "dup",
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "223": {
+      "op": "len",
+      "defined_out": [
+        "aggregate%length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%length%0#0"
+      ]
+    },
+    "224": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%as_bytes%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%as_bytes%0#0"
+      ]
+    },
+    "225": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%length_uint16%0#0"
+      ]
+    },
+    "228": {
+      "op": "swap",
+      "stack_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "229": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "230": {
+      "op": "bytec 6 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "aggregate%encoded_value%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "232": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "233": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "234": {
+      "op": "log",
+      "stack_out": []
+    },
+    "235": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "236": {
+      "op": "return",
+      "stack_out": []
+    },
+    "237": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.setup_project[routing]",
+      "params": {},
+      "block": "setup_project",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0"
+      ]
+    },
+    "240": {
+      "op": "dup",
+      "defined_out": [
+        "manager#0",
+        "manager#0 (copy)"
+      ],
+      "stack_out": [
+        "manager#0",
+        "manager#0 (copy)"
+      ]
+    },
+    "241": {
+      "op": "len",
+      "defined_out": [
+        "len%0#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "len%0#0"
+      ]
+    },
+    "242": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "len%0#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "243": {
+      "op": "==",
+      "defined_out": [
+        "eq%0#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "eq%0#0"
+      ]
+    },
+    "244": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "manager#0"
+      ]
+    },
+    "245": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "client#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0"
+      ]
+    },
+    "248": {
+      "op": "dup",
+      "defined_out": [
+        "client#0",
+        "client#0 (copy)",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "client#0 (copy)"
+      ]
+    },
+    "249": {
+      "op": "len",
+      "defined_out": [
+        "client#0",
+        "len%1#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "len%1#0"
+      ]
+    },
+    "250": {
+      "op": "intc_2 // 32",
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "len%1#0",
+        "32"
+      ]
+    },
+    "251": {
+      "op": "==",
+      "defined_out": [
+        "client#0",
+        "eq%1#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "eq%1#0"
+      ]
+    },
+    "252": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "manager#0",
+        "client#0"
+      ]
+    },
+    "253": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "client#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "0"
+      ]
+    },
+    "254": {
+      "op": "bytec_1 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0",
+        "client#0",
+        "manager#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "0",
+        "\"manager\""
+      ]
+    },
+    "255": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "client#0",
+        "manager#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "256": {
+      "error": "check self.manager exists",
+      "op": "assert // check self.manager exists",
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "257": {
+      "op": "global ZeroAddress",
+      "defined_out": [
+        "client#0",
+        "manager#0",
+        "maybe_value%0#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "maybe_value%0#0",
+        "tmp%0#1"
+      ]
+    },
+    "259": {
+      "op": "==",
+      "defined_out": [
+        "client#0",
+        "manager#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "tmp%1#1"
+      ]
+    },
+    "260": {
+      "error": "Project already initialized",
+      "op": "assert // Project already initialized",
+      "stack_out": [
+        "manager#0",
+        "client#0"
+      ]
+    },
+    "261": {
+      "op": "bytec_1 // \"manager\"",
+      "stack_out": [
+        "manager#0",
+        "client#0",
+        "\"manager\""
+      ]
+    },
+    "262": {
+      "op": "uncover 2",
+      "stack_out": [
+        "client#0",
+        "\"manager\"",
+        "manager#0"
+      ]
+    },
+    "264": {
+      "op": "app_global_put",
+      "stack_out": [
+        "client#0"
+      ]
+    },
+    "265": {
+      "op": "bytec 5 // \"client\"",
+      "defined_out": [
+        "\"client\"",
+        "client#0"
+      ],
+      "stack_out": [
+        "client#0",
+        "\"client\""
+      ]
+    },
+    "267": {
+      "op": "swap",
+      "stack_out": [
+        "\"client\"",
+        "client#0"
+      ]
+    },
+    "268": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "269": {
+      "op": "pushbytes 0x151f7c75001950726f6a656374207365747570207375636365737366756c21",
+      "defined_out": [
+        "0x151f7c75001950726f6a656374207365747570207375636365737366756c21"
+      ],
+      "stack_out": [
+        "0x151f7c75001950726f6a656374207365747570207375636365737366756c21"
+      ]
+    },
+    "302": {
+      "op": "log",
+      "stack_out": []
+    },
+    "303": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "304": {
+      "op": "return",
+      "stack_out": []
+    },
+    "305": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.add_contributor[routing]",
+      "params": {},
+      "block": "add_contributor",
+      "stack_in": [],
+      "op": "txna ApplicationArgs 1"
+    },
+    "308": {
+      "op": "dup",
+      "defined_out": [
+        "contributor_address#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "contributor_address#0"
+      ]
+    },
+    "309": {
+      "op": "len",
+      "defined_out": [
+        "contributor_address#0",
+        "len%0#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "len%0#0"
+      ]
+    },
+    "310": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "contributor_address#0",
+        "len%0#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "len%0#0",
+        "32"
+      ]
+    },
+    "311": {
+      "op": "==",
+      "defined_out": [
+        "contributor_address#0",
+        "eq%0#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "eq%0#0"
+      ]
+    },
+    "312": {
+      "error": "invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "op": "assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>",
+      "stack_out": [
+        "contributor_address#0"
+      ]
+    },
+    "313": {
+      "op": "txna ApplicationArgs 2",
+      "defined_out": [
+        "contributor_address#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0"
+      ]
+    },
+    "316": {
+      "op": "dup",
+      "defined_out": [
+        "contributor_address#0",
+        "tmp%1#0",
+        "tmp%1#0 (copy)"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0",
+        "tmp%1#0 (copy)"
+      ]
+    },
+    "317": {
+      "op": "len",
+      "defined_out": [
+        "contributor_address#0",
+        "len%1#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0",
+        "len%1#0"
+      ]
+    },
+    "318": {
+      "op": "pushint 8 // 8",
+      "defined_out": [
+        "8",
+        "contributor_address#0",
+        "len%1#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0",
+        "len%1#0",
+        "8"
+      ]
+    },
+    "320": {
+      "op": "==",
+      "defined_out": [
+        "contributor_address#0",
+        "eq%1#0",
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0",
+        "eq%1#0"
+      ]
+    },
+    "321": {
+      "error": "invalid number of bytes for arc4.uint64",
+      "op": "assert // invalid number of bytes for arc4.uint64",
+      "stack_out": [
+        "contributor_address#0",
+        "tmp%1#0"
+      ]
+    },
+    "322": {
+      "op": "btoi",
+      "defined_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "323": {
+      "op": "dup",
+      "defined_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0"
+      ]
+    },
+    "324": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "0"
+      ]
+    },
+    "325": {
+      "op": "bytec_1 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "0",
+        "\"manager\""
+      ]
+    },
+    "326": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "contributor_address#0",
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "327": {
+      "error": "check self.manager exists",
+      "op": "assert // check self.manager exists",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "328": {
+      "op": "txn Sender",
+      "defined_out": [
+        "contributor_address#0",
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ]
+    },
+    "330": {
+      "op": "==",
+      "defined_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "tmp%0#1"
+      ]
+    },
+    "331": {
+      "error": "Only manager can add contributors",
+      "op": "assert // Only manager can add contributors",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0"
+      ]
+    },
+    "332": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "0"
+      ]
+    },
+    "333": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\"",
+        "0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "0",
+        "\"is_locked\""
+      ]
+    },
+    "334": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "contributor_address#0",
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "335": {
+      "error": "check self.is_locked exists",
+      "op": "assert // check self.is_locked exists",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "336": {
+      "op": "!",
+      "defined_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "tmp%1#1"
+      ]
+    },
+    "337": {
+      "error": "Contributors list is locked",
+      "op": "assert // Contributors list is locked",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0"
+      ]
+    },
+    "338": {
+      "op": "bz add_contributor_bool_false@4",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "341": {
+      "op": "dup",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0"
+      ]
+    },
+    "342": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0",
+        "100"
+      ]
+    },
+    "344": {
+      "op": "<=",
+      "defined_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "tmp%3#1"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "tmp%3#1"
+      ]
+    },
+    "345": {
+      "op": "bz add_contributor_bool_false@4",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "348": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "and_result%0#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "and_result%0#0"
+      ]
+    },
+    "349": {
+      "error": "Invalid percentage",
+      "block": "add_contributor_bool_merge@5",
+      "stack_in": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "and_result%0#0"
+      ],
+      "op": "assert // Invalid percentage",
+      "defined_out": [],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "350": {
+      "op": "dup",
+      "defined_out": [
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "share_percentage#0"
+      ]
+    },
+    "351": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "352": {
+      "op": "dig 2",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "aggregate%val_as_bytes%0#0",
+        "contributor_address#0"
+      ]
+    },
+    "354": {
+      "op": "swap",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "contributor_address#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "355": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "356": {
+      "op": "pushbytes 0x00",
+      "defined_out": [
+        "0x00",
+        "aggregate%head%1#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "aggregate%head%1#0",
+        "0x00"
+      ]
+    },
+    "359": {
+      "op": "concat",
+      "defined_out": [
+        "contributor_address#0",
+        "new_contributor#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0"
+      ]
+    },
+    "360": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "contributor_address#0",
+        "new_contributor#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0",
+        "0"
+      ]
+    },
+    "361": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0",
+        "contributor_address#0",
+        "new_contributor#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0",
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "362": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "contributor_address#0",
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "new_contributor#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "363": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "364": {
+      "op": "dup",
+      "defined_out": [
+        "contributor_address#0",
+        "maybe_value%2#0",
+        "maybe_value%2#0 (copy)",
+        "new_contributor#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "new_contributor#0",
+        "maybe_value%2#0",
+        "maybe_value%2#0 (copy)"
+      ]
+    },
+    "365": {
+      "op": "uncover 2",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "maybe_value%2#0",
+        "maybe_value%2#0 (copy)",
+        "new_contributor#0"
+      ]
+    },
+    "367": {
+      "error": "max array length exceeded",
+      "op": "concat // on error: max array length exceeded",
+      "defined_out": [
+        "concat%0#0",
+        "contributor_address#0",
+        "maybe_value%2#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "maybe_value%2#0",
+        "concat%0#0"
+      ]
+    },
+    "368": {
+      "op": "swap",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "369": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "maybe_value%2#0",
+        "0"
+      ]
+    },
+    "370": {
+      "op": "extract_uint16",
+      "defined_out": [
+        "concat%0#0",
+        "contributor_address#0",
+        "extract_uint16%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "extract_uint16%0#0"
+      ]
+    },
+    "371": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "concat%0#0",
+        "contributor_address#0",
+        "extract_uint16%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "extract_uint16%0#0",
+        "1"
+      ]
+    },
+    "372": {
+      "op": "+",
+      "defined_out": [
+        "add%0#0",
+        "concat%0#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "add%0#0"
+      ]
+    },
+    "373": {
+      "op": "itob",
+      "defined_out": [
+        "as_bytes%0#0",
+        "concat%0#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "as_bytes%0#0"
+      ]
+    },
+    "374": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "as_u16_bytes%0#0",
+        "concat%0#0",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "concat%0#0",
+        "as_u16_bytes%0#0"
+      ]
+    },
+    "377": {
+      "op": "replace2 0",
+      "defined_out": [
+        "contributor_address#0",
+        "replace%0#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "replace%0#0"
+      ]
+    },
+    "379": {
+      "op": "bytec_0 // \"contributors\"",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "replace%0#0",
+        "\"contributors\""
+      ]
+    },
+    "380": {
+      "op": "swap",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "\"contributors\"",
+        "replace%0#0"
+      ]
+    },
+    "381": {
+      "op": "app_global_put",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "382": {
+      "op": "pushbytes 0x151f7c75001f436f6e7472696275746f72206164646564207375636365737366756c6c7921",
+      "defined_out": [
+        "0x151f7c75001f436f6e7472696275746f72206164646564207375636365737366756c6c7921",
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "0x151f7c75001f436f6e7472696275746f72206164646564207375636365737366756c6c7921"
+      ]
+    },
+    "421": {
+      "op": "log",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "422": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "1"
+      ]
+    },
+    "423": {
+      "op": "return",
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ]
+    },
+    "424": {
+      "block": "add_contributor_bool_false@4",
+      "stack_in": [
+        "contributor_address#0",
+        "share_percentage#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "and_result%0#0"
+      ],
+      "stack_out": [
+        "contributor_address#0",
+        "share_percentage#0",
+        "and_result%0#0"
+      ]
+    },
+    "425": {
+      "op": "b add_contributor_bool_merge@5"
+    },
+    "428": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.lock_contributors[routing]",
+      "params": {},
+      "block": "lock_contributors",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "429": {
+      "op": "bytec_1 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"manager\""
+      ]
+    },
+    "430": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "431": {
+      "error": "check self.manager exists",
+      "op": "assert // check self.manager exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "432": {
+      "op": "txn Sender",
+      "defined_out": [
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ]
+    },
+    "434": {
+      "op": "==",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "tmp%0#1"
+      ]
+    },
+    "435": {
+      "error": "Only manager can lock contributors",
+      "op": "assert // Only manager can lock contributors",
+      "stack_out": []
+    },
+    "436": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "437": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"is_locked\""
+      ]
+    },
+    "438": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "439": {
+      "error": "check self.is_locked exists",
+      "op": "assert // check self.is_locked exists",
+      "stack_out": [
+        "maybe_value%1#0"
+      ]
+    },
+    "440": {
+      "op": "!",
+      "defined_out": [
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "tmp%1#1"
+      ]
+    },
+    "441": {
+      "error": "Already locked",
+      "op": "assert // Already locked",
+      "stack_out": []
+    },
+    "442": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "0"
+      ]
+    },
+    "443": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "444": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "445": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "maybe_value%2#0"
+      ]
+    },
+    "446": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%2#0",
+        "0"
+      ]
+    },
+    "447": {
+      "error": "invalid array length header",
+      "op": "extract_uint16 // on error: invalid array length header",
+      "defined_out": [
+        "aggregate%array_length%0#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "448": {
+      "op": "dup",
+      "defined_out": [
+        "aggregate%array_length%0#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "449": {
+      "error": "No contributors added",
+      "op": "assert // No contributors added",
+      "stack_out": [
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "450": {
+      "op": "intc_0 // 0"
+    },
+    "451": {
+      "op": "dup",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "452": {
+      "block": "lock_contributors_for_header@2",
+      "stack_in": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "453": {
+      "op": "dig 3",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "455": {
+      "op": "<",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "continue_looping%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "456": {
+      "op": "bz lock_contributors_after_for@5",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "459": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "460": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0",
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "461": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "maybe_exists%4#0",
+        "maybe_value%4#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "462": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "463": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0"
+      ]
+    },
+    "466": {
+      "op": "dig 1",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0"
+      ]
+    },
+    "468": {
+      "op": "dup",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0",
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0 (copy)",
+        "i#0 (copy)"
+      ]
+    },
+    "469": {
+      "op": "cover 2",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0 (copy)"
+      ]
+    },
+    "471": {
+      "op": "intc_3 // 41",
+      "defined_out": [
+        "41",
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0",
+        "i#0 (copy)"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0 (copy)",
+        "41"
+      ]
+    },
+    "472": {
+      "op": "*",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0"
+      ]
+    },
+    "473": {
+      "op": "intc_3 // 41",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "41"
+      ]
+    },
+    "474": {
+      "error": "index access is out of bounds",
+      "op": "extract3 // on error: index access is out of bounds",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%encoded_element%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%encoded_element%0#0"
+      ]
+    },
+    "475": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "aggregate%array_length%0#0",
+        "aggregate%encoded_element%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "aggregate%encoded_element%0#0",
+        "32"
+      ]
+    },
+    "476": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "values%0#0"
+      ]
+    },
+    "477": {
+      "op": "dig 3",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "total_percentage#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "values%0#0",
+        "total_percentage#0"
+      ]
+    },
+    "479": {
+      "op": "+",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "total_percentage#0"
+      ]
+    },
+    "480": {
+      "op": "bury 3",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "482": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "aggregate%array_length%0#0",
+        "i#0",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "483": {
+      "op": "+",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "484": {
+      "op": "bury 1",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "486": {
+      "op": "b lock_contributors_for_header@2"
+    },
+    "489": {
+      "block": "lock_contributors_after_for@5",
+      "stack_in": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "total_percentage#0"
+      ]
+    },
+    "491": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "total_percentage#0",
+        "100"
+      ]
+    },
+    "493": {
+      "op": "==",
+      "defined_out": [
+        "tmp%6#0",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "tmp%6#0"
+      ]
+    },
+    "494": {
+      "error": "Shares must sum to 100%",
+      "op": "assert // Shares must sum to 100%",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "495": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\"",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "\"is_locked\""
+      ]
+    },
+    "496": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "\"is_locked\"",
+        "1",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "\"is_locked\"",
+        "1"
+      ]
+    },
+    "497": {
+      "op": "app_global_put",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "498": {
+      "op": "pushbytes 0x151f7c75002c436f6e7472696275746f7273206c697374206c6f636b65642120526561647920666f722066756e64696e672e",
+      "defined_out": [
+        "0x151f7c75002c436f6e7472696275746f7273206c697374206c6f636b65642120526561647920666f722066756e64696e672e",
+        "total_percentage#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "0x151f7c75002c436f6e7472696275746f7273206c697374206c6f636b65642120526561647920666f722066756e64696e672e"
+      ]
+    },
+    "550": {
+      "op": "log",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "551": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "552": {
+      "op": "return",
+      "stack_out": [
+        "aggregate%array_length%0#0",
+        "total_percentage#0",
+        "i#0"
+      ]
+    },
+    "553": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.fund_project[routing]",
+      "params": {},
+      "block": "fund_project",
+      "stack_in": [],
+      "op": "txn GroupIndex",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "555": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "1"
+      ]
+    },
+    "556": {
+      "op": "-",
+      "defined_out": [
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "557": {
+      "op": "dup",
+      "defined_out": [
+        "payment#0",
+        "payment#0 (copy)"
+      ],
+      "stack_out": [
+        "payment#0",
+        "payment#0 (copy)"
+      ]
+    },
+    "558": {
+      "op": "gtxns TypeEnum",
+      "defined_out": [
+        "gtxn_type%0#0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "gtxn_type%0#0"
+      ]
+    },
+    "560": {
+      "op": "intc_1 // pay",
+      "defined_out": [
+        "gtxn_type%0#0",
+        "pay",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "gtxn_type%0#0",
+        "pay"
+      ]
+    },
+    "561": {
+      "op": "==",
+      "defined_out": [
+        "gtxn_type_matches%0#0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "gtxn_type_matches%0#0"
+      ]
+    },
+    "562": {
+      "error": "transaction type is pay",
+      "op": "assert // transaction type is pay",
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "563": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "0"
+      ]
+    },
+    "564": {
+      "op": "bytec 5 // \"client\"",
+      "defined_out": [
+        "\"client\"",
+        "0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "0",
+        "\"client\""
+      ]
+    },
+    "566": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "567": {
+      "error": "check self.client exists",
+      "op": "assert // check self.client exists",
+      "stack_out": [
+        "payment#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "568": {
+      "op": "txn Sender",
+      "defined_out": [
+        "maybe_value%0#0",
+        "payment#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ]
+    },
+    "570": {
+      "op": "==",
+      "defined_out": [
+        "payment#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "payment#0",
+        "tmp%0#1"
+      ]
+    },
+    "571": {
+      "error": "Only client can fund",
+      "op": "assert // Only client can fund",
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "572": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "payment#0",
+        "0"
+      ]
+    },
+    "573": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\"",
+        "0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "0",
+        "\"is_locked\""
+      ]
+    },
+    "574": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "575": {
+      "error": "check self.is_locked exists",
+      "op": "assert // check self.is_locked exists",
+      "stack_out": [
+        "payment#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "576": {
+      "error": "Contributors must be locked first",
+      "op": "assert // Contributors must be locked first",
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "577": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "payment#0",
+        "0"
+      ]
+    },
+    "578": {
+      "op": "bytec 4 // \"is_completed\"",
+      "defined_out": [
+        "\"is_completed\"",
+        "0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "0",
+        "\"is_completed\""
+      ]
+    },
+    "580": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0",
+        "payment#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "581": {
+      "error": "check self.is_completed exists",
+      "op": "assert // check self.is_completed exists",
+      "stack_out": [
+        "payment#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "582": {
+      "op": "!",
+      "defined_out": [
+        "payment#0",
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "payment#0",
+        "tmp%1#1"
+      ]
+    },
+    "583": {
+      "error": "Project already completed",
+      "op": "assert // Project already completed",
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "584": {
+      "op": "dup",
+      "stack_out": [
+        "payment#0",
+        "payment#0 (copy)"
+      ]
+    },
+    "585": {
+      "op": "gtxns Receiver",
+      "defined_out": [
+        "payment#0",
+        "tmp%2#1"
+      ],
+      "stack_out": [
+        "payment#0",
+        "tmp%2#1"
+      ]
+    },
+    "587": {
+      "op": "global CurrentApplicationAddress",
+      "defined_out": [
+        "payment#0",
+        "tmp%2#1",
+        "tmp%3#1"
+      ],
+      "stack_out": [
+        "payment#0",
+        "tmp%2#1",
+        "tmp%3#1"
+      ]
+    },
+    "589": {
+      "op": "==",
+      "defined_out": [
+        "payment#0",
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "payment#0",
+        "tmp%4#0"
+      ]
+    },
+    "590": {
+      "error": "Payment must go to contract",
+      "op": "assert // Payment must go to contract",
+      "stack_out": [
+        "payment#0"
+      ]
+    },
+    "591": {
+      "op": "gtxns Amount",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "593": {
+      "op": "dup",
+      "defined_out": [
+        "tmp%5#0",
+        "tmp%5#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%5#0",
+        "tmp%5#0 (copy)"
+      ]
+    },
+    "594": {
+      "op": "pushint 1000000 // 1000000",
+      "defined_out": [
+        "1000000",
+        "tmp%5#0",
+        "tmp%5#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%5#0",
+        "tmp%5#0 (copy)",
+        "1000000"
+      ]
+    },
+    "598": {
+      "op": ">=",
+      "defined_out": [
+        "tmp%5#0",
+        "tmp%6#0"
+      ],
+      "stack_out": [
+        "tmp%5#0",
+        "tmp%6#0"
+      ]
+    },
+    "599": {
+      "error": "Minimum funding is 1 ALGO",
+      "op": "assert // Minimum funding is 1 ALGO",
+      "stack_out": [
+        "tmp%5#0"
+      ]
+    },
+    "600": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "tmp%5#0",
+        "0"
+      ]
+    },
+    "601": {
+      "op": "bytec_2 // \"total_funded\"",
+      "defined_out": [
+        "\"total_funded\"",
+        "0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0",
+        "0",
+        "\"total_funded\""
+      ]
+    },
+    "602": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "tmp%5#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "603": {
+      "error": "check self.total_funded exists",
+      "op": "assert // check self.total_funded exists",
+      "stack_out": [
+        "tmp%5#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "604": {
+      "op": "+",
+      "defined_out": [
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "tmp%8#0"
+      ]
+    },
+    "605": {
+      "op": "bytec_2 // \"total_funded\"",
+      "stack_out": [
+        "tmp%8#0",
+        "\"total_funded\""
+      ]
+    },
+    "606": {
+      "op": "swap",
+      "stack_out": [
+        "\"total_funded\"",
+        "tmp%8#0"
+      ]
+    },
+    "607": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "608": {
+      "op": "pushbytes 0x151f7c75001c50726f6a6563742066756e646564207375636365737366756c6c7921",
+      "defined_out": [
+        "0x151f7c75001c50726f6a6563742066756e646564207375636365737366756c6c7921"
+      ],
+      "stack_out": [
+        "0x151f7c75001c50726f6a6563742066756e646564207375636365737366756c6c7921"
+      ]
+    },
+    "644": {
+      "op": "log",
+      "stack_out": []
+    },
+    "645": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "1"
+      ]
+    },
+    "646": {
+      "op": "return",
+      "stack_out": []
+    },
+    "647": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.complete_and_payout[routing]",
+      "params": {},
+      "block": "complete_and_payout",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0"
+      ]
+    },
+    "648": {
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "650": {
+      "op": "dupn 2",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "652": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "653": {
+      "op": "bytec_1 // \"manager\"",
+      "defined_out": [
+        "\"manager\"",
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"manager\""
+      ]
+    },
+    "654": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "655": {
+      "error": "check self.manager exists",
+      "op": "assert // check self.manager exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "656": {
+      "op": "txn Sender",
+      "defined_out": [
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%0#0",
+        "reinterpret_Encoded(uint8[32])%0#0"
+      ]
+    },
+    "658": {
+      "op": "==",
+      "defined_out": [
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "tmp%0#1"
+      ]
+    },
+    "659": {
+      "op": "bnz complete_and_payout_bool_true@3",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "662": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "663": {
+      "op": "bytec 5 // \"client\"",
+      "defined_out": [
+        "\"client\"",
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"client\""
+      ]
+    },
+    "665": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "666": {
+      "error": "check self.client exists",
+      "op": "assert // check self.client exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%1#0"
+      ]
+    },
+    "667": {
+      "op": "txn Sender",
+      "defined_out": [
+        "maybe_value%1#0",
+        "reinterpret_Encoded(uint8[32])%1#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%1#0",
+        "reinterpret_Encoded(uint8[32])%1#0"
+      ]
+    },
+    "669": {
+      "op": "==",
+      "defined_out": [
+        "tmp%1#1"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "tmp%1#1"
+      ]
+    },
+    "670": {
+      "op": "bz complete_and_payout_bool_false@4",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "673": {
+      "block": "complete_and_payout_bool_true@3",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "or_result%0#0"
+      ]
+    },
+    "674": {
+      "error": "Only manager or client can complete",
+      "block": "complete_and_payout_bool_merge@5",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "or_result%0#0"
+      ],
+      "op": "assert // Only manager or client can complete",
+      "defined_out": [],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "675": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "676": {
+      "op": "bytec_2 // \"total_funded\"",
+      "defined_out": [
+        "\"total_funded\"",
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"total_funded\""
+      ]
+    },
+    "677": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "678": {
+      "error": "check self.total_funded exists",
+      "op": "assert // check self.total_funded exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%2#0"
+      ]
+    },
+    "679": {
+      "error": "Project not funded yet",
+      "op": "assert // Project not funded yet",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "680": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "681": {
+      "op": "bytec 4 // \"is_completed\"",
+      "defined_out": [
+        "\"is_completed\"",
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"is_completed\""
+      ]
+    },
+    "683": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%3#0",
+        "maybe_value%3#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%3#0",
+        "maybe_exists%3#0"
+      ]
+    },
+    "684": {
+      "error": "check self.is_completed exists",
+      "op": "assert // check self.is_completed exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%3#0"
+      ]
+    },
+    "685": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "tmp%3#0"
+      ]
+    },
+    "686": {
+      "error": "Project already completed",
+      "op": "assert // Project already completed",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "687": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "688": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "689": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%4#0",
+        "maybe_value%4#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%4#0",
+        "maybe_exists%4#0"
+      ]
+    },
+    "690": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%4#0"
+      ]
+    },
+    "691": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%4#0",
+        "0"
+      ]
+    },
+    "692": {
+      "error": "invalid array length header",
+      "op": "extract_uint16 // on error: invalid array length header",
+      "defined_out": [
+        "aggregate%array_length%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "693": {
+      "op": "bury 3",
+      "defined_out": [
+        "aggregate%array_length%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "695": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "696": {
+      "op": "bury 1",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "698": {
+      "block": "complete_and_payout_for_header@6",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "699": {
+      "op": "dig 3",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0",
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "701": {
+      "op": "<",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "continue_looping%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "702": {
+      "op": "bz complete_and_payout_after_for@12",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "705": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "706": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0",
+        "aggregate%array_length%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "707": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "i#0",
+        "maybe_exists%5#0",
+        "maybe_value%5#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%5#0",
+        "maybe_exists%5#0"
+      ]
+    },
+    "708": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%5#0"
+      ]
+    },
+    "709": {
+      "op": "extract 2 0",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0"
+      ]
+    },
+    "712": {
+      "op": "dig 1",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0"
+      ]
+    },
+    "714": {
+      "op": "intc_3 // 41",
+      "defined_out": [
+        "41",
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "i#0",
+        "41"
+      ]
+    },
+    "715": {
+      "op": "*",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0"
+      ]
+    },
+    "716": {
+      "op": "dup",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "aggregate%bytes_offset%0#0"
+      ]
+    },
+    "717": {
+      "op": "bury 4",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0"
+      ]
+    },
+    "719": {
+      "op": "intc_3 // 41",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%array_trimmed%0#0",
+        "aggregate%bytes_offset%0#0",
+        "41"
+      ]
+    },
+    "720": {
+      "error": "index access is out of bounds",
+      "op": "extract3 // on error: index access is out of bounds",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "721": {
+      "op": "dup",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "contributor#0"
+      ]
+    },
+    "722": {
+      "op": "bury 5",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "724": {
+      "op": "pushint 320 // 320",
+      "defined_out": [
+        "320",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "320"
+      ]
+    },
+    "727": {
+      "op": "getbit",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "aggregate%get_bit%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%get_bit%0#0"
+      ]
+    },
+    "728": {
+      "op": "bnz complete_and_payout_after_if_else@10",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "731": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0"
+      ]
+    },
+    "732": {
+      "op": "bytec_2 // \"total_funded\"",
+      "defined_out": [
+        "\"total_funded\"",
+        "0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0",
+        "\"total_funded\""
+      ]
+    },
+    "733": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "maybe_exists%6#0",
+        "maybe_value%6#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%6#0",
+        "maybe_exists%6#0"
+      ]
+    },
+    "734": {
+      "error": "check self.total_funded exists",
+      "op": "assert // check self.total_funded exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%6#0"
+      ]
+    },
+    "735": {
+      "op": "dig 4",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%6#0",
+        "contributor#0"
+      ]
+    },
+    "737": {
+      "op": "dup",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "contributor#0 (copy)",
+        "i#0",
+        "maybe_value%6#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%6#0",
+        "contributor#0 (copy)",
+        "contributor#0 (copy)"
+      ]
+    },
+    "738": {
+      "op": "cover 2",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%6#0",
+        "contributor#0 (copy)"
+      ]
+    },
+    "740": {
+      "op": "intc_2 // 32",
+      "defined_out": [
+        "32",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "contributor#0 (copy)",
+        "i#0",
+        "maybe_value%6#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%6#0",
+        "contributor#0 (copy)",
+        "32"
+      ]
+    },
+    "741": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "maybe_value%6#0",
+        "values%1#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%6#0",
+        "values%1#0"
+      ]
+    },
+    "742": {
+      "op": "*",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "tmp%5#0"
+      ]
+    },
+    "743": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "tmp%5#0",
+        "100"
+      ]
+    },
+    "745": {
+      "op": "/",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "payout_amount#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "payout_amount#0"
+      ]
+    },
+    "746": {
+      "op": "itxn_begin"
+    },
+    "747": {
+      "op": "dig 1",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "payout_amount#0",
+        "contributor#0 (copy)"
+      ]
+    },
+    "749": {
+      "op": "extract 0 32",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "aggregate%extract%1#0",
+        "contributor#0",
+        "i#0",
+        "payout_amount#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "payout_amount#0",
+        "aggregate%extract%1#0"
+      ]
+    },
+    "752": {
+      "op": "itxn_field Receiver"
+    },
+    "754": {
+      "op": "itxn_field Amount",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "756": {
+      "op": "intc_1 // pay",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "pay"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "pay"
+      ]
+    },
+    "757": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "759": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "0"
+      ]
+    },
+    "760": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "762": {
+      "op": "itxn_submit"
+    },
+    "763": {
+      "op": "pushint 320 // 320",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "320"
+      ]
+    },
+    "766": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "320",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "320",
+        "1"
+      ]
+    },
+    "767": {
+      "op": "setbit",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0"
+      ]
+    },
+    "768": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "0"
+      ]
+    },
+    "769": {
+      "op": "bytec_0 // \"contributors\"",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "770": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "maybe_exists%7#0",
+        "maybe_value%7#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%7#0",
+        "maybe_exists%7#0"
+      ]
+    },
+    "771": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%7#0"
+      ]
+    },
+    "772": {
+      "op": "dig 3",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%7#0",
+        "aggregate%bytes_offset%0#0"
+      ]
+    },
+    "774": {
+      "op": "pushint 2 // 2",
+      "defined_out": [
+        "2",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "contributor#0",
+        "i#0",
+        "maybe_value%7#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%7#0",
+        "aggregate%bytes_offset%0#0",
+        "2"
+      ]
+    },
+    "776": {
+      "op": "+",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "aggregate%write_offset_with_length_header%0#0",
+        "contributor#0",
+        "i#0",
+        "maybe_value%7#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "contributor#0",
+        "maybe_value%7#0",
+        "aggregate%write_offset_with_length_header%0#0"
+      ]
+    },
+    "777": {
+      "op": "uncover 2",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "maybe_value%7#0",
+        "aggregate%write_offset_with_length_header%0#0",
+        "contributor#0"
+      ]
+    },
+    "779": {
+      "error": "index access is out of bounds",
+      "op": "replace3 // on error: index access is out of bounds",
+      "defined_out": [
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "aggregate%updated_array%0#0",
+        "contributor#0",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%updated_array%0#0"
+      ]
+    },
+    "780": {
+      "op": "bytec_0 // \"contributors\"",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "aggregate%updated_array%0#0",
+        "\"contributors\""
+      ]
+    },
+    "781": {
+      "op": "swap",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "\"contributors\"",
+        "aggregate%updated_array%0#0"
+      ]
+    },
+    "782": {
+      "op": "app_global_put",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "783": {
+      "block": "complete_and_payout_after_if_else@10",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "784": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1",
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "785": {
+      "op": "+",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "i#0"
+      ]
+    },
+    "786": {
+      "op": "bury 1",
+      "defined_out": [
+        "i#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "788": {
+      "op": "b complete_and_payout_for_header@6"
+    },
+    "791": {
+      "block": "complete_and_payout_after_for@12",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "op": "bytec 4 // \"is_completed\"",
+      "defined_out": [
+        "\"is_completed\""
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "\"is_completed\""
+      ]
+    },
+    "793": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "\"is_completed\"",
+        "1"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "\"is_completed\"",
+        "1"
+      ]
+    },
+    "794": {
+      "op": "app_global_put",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "795": {
+      "op": "pushbytes 0x151f7c75002950726f6a65637420636f6d706c657465642120416c6c20636f6e7472696275746f727320706169642e",
+      "defined_out": [
+        "0x151f7c75002950726f6a65637420636f6d706c657465642120416c6c20636f6e7472696275746f727320706169642e"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "0x151f7c75002950726f6a65637420636f6d706c657465642120416c6c20636f6e7472696275746f727320706169642e"
+      ]
+    },
+    "844": {
+      "op": "log",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "845": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "1"
+      ]
+    },
+    "846": {
+      "op": "return",
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ]
+    },
+    "847": {
+      "block": "complete_and_payout_bool_false@4",
+      "stack_in": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0"
+      ],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "or_result%0#0"
+      ],
+      "stack_out": [
+        "contributor#0",
+        "aggregate%array_length%0#0",
+        "aggregate%bytes_offset%0#0",
+        "i#0",
+        "or_result%0#0"
+      ]
+    },
+    "848": {
+      "op": "b complete_and_payout_bool_merge@5"
+    },
+    "851": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status[routing]",
+      "params": {},
+      "block": "get_project_status",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "852": {
+      "op": "bytec_3 // \"is_locked\"",
+      "defined_out": [
+        "\"is_locked\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"is_locked\""
+      ]
+    },
+    "853": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "854": {
+      "error": "check self.is_locked exists",
+      "op": "assert // check self.is_locked exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "855": {
+      "op": "bnz get_project_status_else_body@3",
+      "stack_out": []
+    },
+    "858": {
+      "op": "pushbytes \"Status: Setting up contributors\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "891": {
+      "block": "get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8",
+      "stack_in": [
+        "tmp%0#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "tmp%0#0 (copy)"
+      ]
+    },
+    "892": {
+      "op": "len",
+      "defined_out": [
+        "aggregate%length%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%length%0#0"
+      ]
+    },
+    "893": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%as_bytes%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%as_bytes%0#0"
+      ]
+    },
+    "894": {
+      "op": "extract 6 2",
+      "defined_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
+        "aggregate%length_uint16%0#0"
+      ]
+    },
+    "897": {
+      "op": "swap",
+      "stack_out": [
+        "aggregate%length_uint16%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "898": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "899": {
+      "op": "bytec 6 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ],
+      "stack_out": [
+        "aggregate%encoded_value%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "901": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%encoded_value%0#0"
+      ]
+    },
+    "902": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "903": {
+      "op": "log",
+      "stack_out": []
+    },
+    "904": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "905": {
+      "op": "return",
+      "stack_out": []
+    },
+    "906": {
+      "block": "get_project_status_else_body@3",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "907": {
+      "op": "bytec_2 // \"total_funded\"",
+      "defined_out": [
+        "\"total_funded\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"total_funded\""
+      ]
+    },
+    "908": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%1#0"
+      ],
+      "stack_out": [
+        "maybe_value%1#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "909": {
+      "error": "check self.total_funded exists",
+      "op": "assert // check self.total_funded exists",
+      "stack_out": [
+        "maybe_value%1#0"
+      ]
+    },
+    "910": {
+      "op": "bnz get_project_status_else_body@5",
+      "stack_out": []
+    },
+    "913": {
+      "op": "pushbytes \"Status: Waiting for funding\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "942": {
+      "op": "b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8"
+    },
+    "945": {
+      "block": "get_project_status_else_body@5",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "946": {
+      "op": "bytec 4 // \"is_completed\"",
+      "defined_out": [
+        "\"is_completed\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"is_completed\""
+      ]
+    },
+    "948": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%2#0",
+        "maybe_value%2#0"
+      ],
+      "stack_out": [
+        "maybe_value%2#0",
+        "maybe_exists%2#0"
+      ]
+    },
+    "949": {
+      "error": "check self.is_completed exists",
+      "op": "assert // check self.is_completed exists",
+      "stack_out": [
+        "maybe_value%2#0"
+      ]
+    },
+    "950": {
+      "op": "bnz get_project_status_else_body@7",
+      "stack_out": []
+    },
+    "953": {
+      "op": "pushbytes \"Status: Funded, awaiting completion\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "990": {
+      "op": "b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8"
+    },
+    "993": {
+      "block": "get_project_status_else_body@7",
+      "stack_in": [],
+      "op": "pushbytes \"Status: Completed and paid out\"",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "1025": {
+      "op": "b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8"
+    },
+    "1028": {
+      "subroutine": "smart_contracts.rantai_adil.contract.RantaiAdil.get_contributor_count[routing]",
+      "params": {},
+      "block": "get_contributor_count",
+      "stack_in": [],
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "1029": {
+      "op": "bytec_0 // \"contributors\"",
+      "defined_out": [
+        "\"contributors\"",
+        "0"
+      ],
+      "stack_out": [
+        "0",
+        "\"contributors\""
+      ]
+    },
+    "1030": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "1031": {
+      "error": "check self.contributors exists",
+      "op": "assert // check self.contributors exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "1032": {
+      "op": "intc_0 // 0",
+      "stack_out": [
+        "maybe_value%0#0",
+        "0"
+      ]
+    },
+    "1033": {
+      "error": "invalid array length header",
+      "op": "extract_uint16 // on error: invalid array length header",
+      "defined_out": [
+        "aggregate%array_length%0#0"
+      ],
+      "stack_out": [
+        "aggregate%array_length%0#0"
+      ]
+    },
+    "1034": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1035": {
+      "op": "bytec 6 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ],
+      "stack_out": [
+        "aggregate%val_as_bytes%0#0",
+        "0x151f7c75"
+      ]
+    },
+    "1037": {
+      "op": "swap",
+      "stack_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "1038": {
+      "op": "concat",
+      "defined_out": [
+        "tmp%2#0"
+      ],
+      "stack_out": [
+        "tmp%2#0"
+      ]
+    },
+    "1039": {
+      "op": "log",
+      "stack_out": []
+    },
+    "1040": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "1041": {
+      "op": "return",
+      "stack_out": []
+    }
+  }
+}

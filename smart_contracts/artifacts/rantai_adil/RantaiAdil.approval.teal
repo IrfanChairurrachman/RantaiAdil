@@ -1,0 +1,682 @@
+#pragma version 11
+#pragma typetrack false
+
+// algopy.arc4.ARC4Contract.approval_program() -> uint64:
+main:
+    intcblock 0 1 32 41
+    bytecblock "contributors" "manager" "total_funded" "is_locked" "is_completed" "client" 0x151f7c75
+    txn ApplicationID
+    bnz main_after_if_else@2
+    // smart_contracts/rantai_adil/contract.py:28
+    // self.manager = Address()  # Project manager address
+    bytec_1 // "manager"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:29
+    // self.client = Address()  # Client who will fund the project
+    bytec 5 // "client"
+    global ZeroAddress
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:30
+    // self.total_funded = UInt64(0)  # Total amount funded by client
+    bytec_2 // "total_funded"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:31
+    // self.is_locked = False  # Whether contributor list is locked
+    bytec_3 // "is_locked"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:32
+    // self.is_completed = False  # Whether project is completed
+    bytec 4 // "is_completed"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:33
+    // self.contributors = DynamicArray[Contributor]()  # List of contributors
+    bytec_0 // "contributors"
+    pushbytes 0x0000
+    app_global_put
+
+main_after_if_else@2:
+    // smart_contracts/rantai_adil/contract.py:12
+    // class RantaiAdil(ARC4Contract):
+    txn NumAppArgs
+    bz main___algopy_default_create@17
+    txn OnCompletion
+    !
+    assert // OnCompletion must be NoOp
+    txn ApplicationID
+    assert
+    pushbytess 0x02bece11 0x7fde39b4 0x4816b302 0xb0311bec 0x127dcaa3 0xd16a729f 0xbbb266ab 0x09c76b68 // method "hello(string)string", method "setup_project(address,address)string", method "add_contributor(address,uint64)string", method "lock_contributors()string", method "fund_project(pay)string", method "complete_and_payout()string", method "get_project_status()string", method "get_contributor_count()uint64"
+    txna ApplicationArgs 0
+    match hello setup_project add_contributor lock_contributors fund_project complete_and_payout get_project_status get_contributor_count
+    err
+
+main___algopy_default_create@17:
+    txn OnCompletion
+    !
+    txn ApplicationID
+    !
+    &&
+    assert // OnCompletion must be NoOp && can only call when creating
+    intc_1 // 1
+    return
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.hello[routing]() -> void:
+hello:
+    // smart_contracts/rantai_adil/contract.py:13
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    intc_0 // 0
+    extract_uint16 // on error: invalid array length header
+    pushint 2 // 2
+    +
+    dig 1
+    len
+    ==
+    assert // invalid number of bytes for arc4.dynamic_array<arc4.uint8>
+    extract 2 0
+    // smart_contracts/rantai_adil/contract.py:15
+    // return "Hello, " + name
+    pushbytes "Hello, "
+    swap
+    concat
+    // smart_contracts/rantai_adil/contract.py:13
+    // @abimethod()
+    dup
+    len
+    itob
+    extract 6 2
+    swap
+    concat
+    bytec 6 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.setup_project[routing]() -> void:
+setup_project:
+    // smart_contracts/rantai_adil/contract.py:35
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 32
+    ==
+    assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
+    txna ApplicationArgs 2
+    dup
+    len
+    intc_2 // 32
+    ==
+    assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
+    // smart_contracts/rantai_adil/contract.py:52-53
+    // # Ensure project hasn't been set up yet
+    // assert self.manager == Address(), "Project already initialized"
+    intc_0 // 0
+    bytec_1 // "manager"
+    app_global_get_ex
+    assert // check self.manager exists
+    global ZeroAddress
+    ==
+    assert // Project already initialized
+    // smart_contracts/rantai_adil/contract.py:55
+    // self.manager = manager
+    bytec_1 // "manager"
+    uncover 2
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:56
+    // self.client = client
+    bytec 5 // "client"
+    swap
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:35
+    // @abimethod()
+    pushbytes 0x151f7c75001950726f6a656374207365747570207375636365737366756c21
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.add_contributor[routing]() -> void:
+add_contributor:
+    // smart_contracts/rantai_adil/contract.py:60
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 32
+    ==
+    assert // invalid number of bytes for arc4.static_array<arc4.uint8, 32>
+    txna ApplicationArgs 2
+    dup
+    len
+    pushint 8 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    dup
+    // smart_contracts/rantai_adil/contract.py:77-78
+    // # Only manager can add contributors
+    // assert Txn.sender == self.manager, "Only manager can add contributors"
+    intc_0 // 0
+    bytec_1 // "manager"
+    app_global_get_ex
+    assert // check self.manager exists
+    txn Sender
+    ==
+    assert // Only manager can add contributors
+    // smart_contracts/rantai_adil/contract.py:80-81
+    // # Cannot add contributors after locking
+    // assert not self.is_locked, "Contributors list is locked"
+    intc_0 // 0
+    bytec_3 // "is_locked"
+    app_global_get_ex
+    assert // check self.is_locked exists
+    !
+    assert // Contributors list is locked
+    // smart_contracts/rantai_adil/contract.py:83-84
+    // # Validate percentage
+    // assert share_percentage > UInt64(0) and share_percentage <= UInt64(100), "Invalid percentage"
+    bz add_contributor_bool_false@4
+    dup
+    pushint 100 // 100
+    <=
+    bz add_contributor_bool_false@4
+    intc_1 // 1
+
+add_contributor_bool_merge@5:
+    // smart_contracts/rantai_adil/contract.py:83-84
+    // # Validate percentage
+    // assert share_percentage > UInt64(0) and share_percentage <= UInt64(100), "Invalid percentage"
+    assert // Invalid percentage
+    // smart_contracts/rantai_adil/contract.py:86-91
+    // # Create new contributor
+    // new_contributor = Contributor(
+    //     address=contributor_address,
+    //     share_percentage=share_percentage,
+    //     paid=False
+    // )
+    dup
+    itob
+    dig 2
+    swap
+    concat
+    pushbytes 0x00
+    concat
+    // smart_contracts/rantai_adil/contract.py:93
+    // self.contributors.append(new_contributor.copy())
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    dup
+    uncover 2
+    concat // on error: max array length exceeded
+    swap
+    intc_0 // 0
+    extract_uint16
+    intc_1 // 1
+    +
+    itob
+    extract 6 2
+    replace2 0
+    bytec_0 // "contributors"
+    swap
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:60
+    // @abimethod()
+    pushbytes 0x151f7c75001f436f6e7472696275746f72206164646564207375636365737366756c6c7921
+    log
+    intc_1 // 1
+    return
+
+add_contributor_bool_false@4:
+    intc_0 // 0
+    b add_contributor_bool_merge@5
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.lock_contributors[routing]() -> void:
+lock_contributors:
+    // smart_contracts/rantai_adil/contract.py:107-108
+    // # Only manager can lock
+    // assert Txn.sender == self.manager, "Only manager can lock contributors"
+    intc_0 // 0
+    bytec_1 // "manager"
+    app_global_get_ex
+    assert // check self.manager exists
+    txn Sender
+    ==
+    assert // Only manager can lock contributors
+    // smart_contracts/rantai_adil/contract.py:110-111
+    // # Cannot lock if already locked
+    // assert not self.is_locked, "Already locked"
+    intc_0 // 0
+    bytec_3 // "is_locked"
+    app_global_get_ex
+    assert // check self.is_locked exists
+    !
+    assert // Already locked
+    // smart_contracts/rantai_adil/contract.py:113-114
+    // # Must have at least one contributor
+    // assert self.contributors.length > UInt64(0), "No contributors added"
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    intc_0 // 0
+    extract_uint16 // on error: invalid array length header
+    dup
+    assert // No contributors added
+    // smart_contracts/rantai_adil/contract.py:116-117
+    // # Validate that shares sum to 100%
+    // total_percentage = UInt64(0)
+    intc_0 // 0
+    // smart_contracts/rantai_adil/contract.py:118
+    // for i in urange(self.contributors.length):
+    dup
+
+lock_contributors_for_header@2:
+    // smart_contracts/rantai_adil/contract.py:118
+    // for i in urange(self.contributors.length):
+    dup
+    dig 3
+    <
+    bz lock_contributors_after_for@5
+    // smart_contracts/rantai_adil/contract.py:119
+    // total_percentage += self.contributors[i].share_percentage
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    extract 2 0
+    dig 1
+    dup
+    cover 2
+    intc_3 // 41
+    *
+    intc_3 // 41
+    extract3 // on error: index access is out of bounds
+    intc_2 // 32
+    extract_uint64
+    dig 3
+    +
+    bury 3
+    // smart_contracts/rantai_adil/contract.py:118
+    // for i in urange(self.contributors.length):
+    intc_1 // 1
+    +
+    bury 1
+    b lock_contributors_for_header@2
+
+lock_contributors_after_for@5:
+    // smart_contracts/rantai_adil/contract.py:121
+    // assert total_percentage == UInt64(100), "Shares must sum to 100%"
+    dig 1
+    pushint 100 // 100
+    ==
+    assert // Shares must sum to 100%
+    // smart_contracts/rantai_adil/contract.py:123
+    // self.is_locked = True
+    bytec_3 // "is_locked"
+    intc_1 // 1
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:97
+    // @abimethod()
+    pushbytes 0x151f7c75002c436f6e7472696275746f7273206c697374206c6f636b65642120526561647920666f722066756e64696e672e
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.fund_project[routing]() -> void:
+fund_project:
+    // smart_contracts/rantai_adil/contract.py:127
+    // @abimethod()
+    txn GroupIndex
+    intc_1 // 1
+    -
+    dup
+    gtxns TypeEnum
+    intc_1 // pay
+    ==
+    assert // transaction type is pay
+    // smart_contracts/rantai_adil/contract.py:139-140
+    // # Only client can fund
+    // assert Txn.sender == self.client, "Only client can fund"
+    intc_0 // 0
+    bytec 5 // "client"
+    app_global_get_ex
+    assert // check self.client exists
+    txn Sender
+    ==
+    assert // Only client can fund
+    // smart_contracts/rantai_adil/contract.py:142-143
+    // # Contributors must be locked first
+    // assert self.is_locked, "Contributors must be locked first"
+    intc_0 // 0
+    bytec_3 // "is_locked"
+    app_global_get_ex
+    assert // check self.is_locked exists
+    assert // Contributors must be locked first
+    // smart_contracts/rantai_adil/contract.py:145-146
+    // # Cannot fund if already completed
+    // assert not self.is_completed, "Project already completed"
+    intc_0 // 0
+    bytec 4 // "is_completed"
+    app_global_get_ex
+    assert // check self.is_completed exists
+    !
+    assert // Project already completed
+    // smart_contracts/rantai_adil/contract.py:148-149
+    // # Verify payment goes to contract
+    // assert payment.receiver == Global.current_application_address, "Payment must go to contract"
+    dup
+    gtxns Receiver
+    global CurrentApplicationAddress
+    ==
+    assert // Payment must go to contract
+    // smart_contracts/rantai_adil/contract.py:151-152
+    // # Verify payment amount is reasonable (at least 1 ALGO)
+    // assert payment.amount >= UInt64(1_000_000), "Minimum funding is 1 ALGO"
+    gtxns Amount
+    dup
+    pushint 1000000 // 1000000
+    >=
+    assert // Minimum funding is 1 ALGO
+    // smart_contracts/rantai_adil/contract.py:154
+    // self.total_funded += payment.amount
+    intc_0 // 0
+    bytec_2 // "total_funded"
+    app_global_get_ex
+    assert // check self.total_funded exists
+    +
+    bytec_2 // "total_funded"
+    swap
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:127
+    // @abimethod()
+    pushbytes 0x151f7c75001c50726f6a6563742066756e646564207375636365737366756c6c7921
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.complete_and_payout[routing]() -> void:
+complete_and_payout:
+    intc_0 // 0
+    pushbytes ""
+    dupn 2
+    // smart_contracts/rantai_adil/contract.py:167-168
+    // # Only manager or client can complete
+    // assert Txn.sender == self.manager or Txn.sender == self.client, "Only manager or client can complete"
+    intc_0 // 0
+    bytec_1 // "manager"
+    app_global_get_ex
+    assert // check self.manager exists
+    txn Sender
+    ==
+    bnz complete_and_payout_bool_true@3
+    intc_0 // 0
+    bytec 5 // "client"
+    app_global_get_ex
+    assert // check self.client exists
+    txn Sender
+    ==
+    bz complete_and_payout_bool_false@4
+
+complete_and_payout_bool_true@3:
+    intc_1 // 1
+
+complete_and_payout_bool_merge@5:
+    // smart_contracts/rantai_adil/contract.py:167-168
+    // # Only manager or client can complete
+    // assert Txn.sender == self.manager or Txn.sender == self.client, "Only manager or client can complete"
+    assert // Only manager or client can complete
+    // smart_contracts/rantai_adil/contract.py:170-171
+    // # Project must be funded
+    // assert self.total_funded > UInt64(0), "Project not funded yet"
+    intc_0 // 0
+    bytec_2 // "total_funded"
+    app_global_get_ex
+    assert // check self.total_funded exists
+    assert // Project not funded yet
+    // smart_contracts/rantai_adil/contract.py:173-174
+    // # Cannot complete twice
+    // assert not self.is_completed, "Project already completed"
+    intc_0 // 0
+    bytec 4 // "is_completed"
+    app_global_get_ex
+    assert // check self.is_completed exists
+    !
+    assert // Project already completed
+    // smart_contracts/rantai_adil/contract.py:176-177
+    // # Pay each contributor their share
+    // for i in urange(self.contributors.length):
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    intc_0 // 0
+    extract_uint16 // on error: invalid array length header
+    bury 3
+    intc_0 // 0
+    bury 1
+
+complete_and_payout_for_header@6:
+    // smart_contracts/rantai_adil/contract.py:176-177
+    // # Pay each contributor their share
+    // for i in urange(self.contributors.length):
+    dup
+    dig 3
+    <
+    bz complete_and_payout_after_for@12
+    // smart_contracts/rantai_adil/contract.py:178
+    // contributor = self.contributors[i].copy()
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    extract 2 0
+    dig 1
+    intc_3 // 41
+    *
+    dup
+    bury 4
+    intc_3 // 41
+    extract3 // on error: index access is out of bounds
+    dup
+    bury 5
+    // smart_contracts/rantai_adil/contract.py:180
+    // if not contributor.paid:
+    pushint 320 // 320
+    getbit
+    bnz complete_and_payout_after_if_else@10
+    // smart_contracts/rantai_adil/contract.py:181-182
+    // # Calculate payout amount
+    // payout_amount = (self.total_funded * contributor.share_percentage) // UInt64(100)
+    intc_0 // 0
+    bytec_2 // "total_funded"
+    app_global_get_ex
+    assert // check self.total_funded exists
+    dig 4
+    dup
+    cover 2
+    intc_2 // 32
+    extract_uint64
+    *
+    pushint 100 // 100
+    /
+    // smart_contracts/rantai_adil/contract.py:184-189
+    // # Send payment via inner transaction
+    // itxn.Payment(
+    //     receiver=contributor.address.native,
+    //     amount=payout_amount,
+    //     fee=UInt64(0)  # Contract pays the fee
+    // ).submit()
+    itxn_begin
+    // smart_contracts/rantai_adil/contract.py:186
+    // receiver=contributor.address.native,
+    dig 1
+    extract 0 32
+    itxn_field Receiver
+    itxn_field Amount
+    // smart_contracts/rantai_adil/contract.py:184-185
+    // # Send payment via inner transaction
+    // itxn.Payment(
+    intc_1 // pay
+    itxn_field TypeEnum
+    // smart_contracts/rantai_adil/contract.py:188
+    // fee=UInt64(0)  # Contract pays the fee
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/rantai_adil/contract.py:184-189
+    // # Send payment via inner transaction
+    // itxn.Payment(
+    //     receiver=contributor.address.native,
+    //     amount=payout_amount,
+    //     fee=UInt64(0)  # Contract pays the fee
+    // ).submit()
+    itxn_submit
+    // smart_contracts/rantai_adil/contract.py:191-192
+    // # Mark as paid
+    // contributor.paid = True
+    pushint 320 // 320
+    intc_1 // 1
+    setbit
+    // smart_contracts/rantai_adil/contract.py:193
+    // self.contributors[i] = contributor.copy()
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    dig 3
+    pushint 2 // 2
+    +
+    uncover 2
+    replace3 // on error: index access is out of bounds
+    bytec_0 // "contributors"
+    swap
+    app_global_put
+
+complete_and_payout_after_if_else@10:
+    // smart_contracts/rantai_adil/contract.py:176-177
+    // # Pay each contributor their share
+    // for i in urange(self.contributors.length):
+    dup
+    intc_1 // 1
+    +
+    bury 1
+    b complete_and_payout_for_header@6
+
+complete_and_payout_after_for@12:
+    // smart_contracts/rantai_adil/contract.py:195
+    // self.is_completed = True
+    bytec 4 // "is_completed"
+    intc_1 // 1
+    app_global_put
+    // smart_contracts/rantai_adil/contract.py:158
+    // @abimethod()
+    pushbytes 0x151f7c75002950726f6a65637420636f6d706c657465642120416c6c20636f6e7472696275746f727320706169642e
+    log
+    intc_1 // 1
+    return
+
+complete_and_payout_bool_false@4:
+    intc_0 // 0
+    b complete_and_payout_bool_merge@5
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status[routing]() -> void:
+get_project_status:
+    // smart_contracts/rantai_adil/contract.py:207
+    // if not self.is_locked:
+    intc_0 // 0
+    bytec_3 // "is_locked"
+    app_global_get_ex
+    assert // check self.is_locked exists
+    bnz get_project_status_else_body@3
+    // smart_contracts/rantai_adil/contract.py:208
+    // return String("Status: Setting up contributors")
+    pushbytes "Status: Setting up contributors"
+
+get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8:
+    // smart_contracts/rantai_adil/contract.py:199
+    // @abimethod()
+    dup
+    len
+    itob
+    extract 6 2
+    swap
+    concat
+    bytec 6 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+get_project_status_else_body@3:
+    // smart_contracts/rantai_adil/contract.py:209
+    // elif self.total_funded == UInt64(0):
+    intc_0 // 0
+    bytec_2 // "total_funded"
+    app_global_get_ex
+    assert // check self.total_funded exists
+    bnz get_project_status_else_body@5
+    // smart_contracts/rantai_adil/contract.py:210
+    // return String("Status: Waiting for funding")
+    pushbytes "Status: Waiting for funding"
+    // smart_contracts/rantai_adil/contract.py:199
+    // @abimethod()
+    b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8
+
+get_project_status_else_body@5:
+    // smart_contracts/rantai_adil/contract.py:211
+    // elif not self.is_completed:
+    intc_0 // 0
+    bytec 4 // "is_completed"
+    app_global_get_ex
+    assert // check self.is_completed exists
+    bnz get_project_status_else_body@7
+    // smart_contracts/rantai_adil/contract.py:212
+    // return String("Status: Funded, awaiting completion")
+    pushbytes "Status: Funded, awaiting completion"
+    // smart_contracts/rantai_adil/contract.py:199
+    // @abimethod()
+    b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8
+
+get_project_status_else_body@7:
+    // smart_contracts/rantai_adil/contract.py:214
+    // return String("Status: Completed and paid out")
+    pushbytes "Status: Completed and paid out"
+    // smart_contracts/rantai_adil/contract.py:199
+    // @abimethod()
+    b get_project_status_after_inlined_smart_contracts.rantai_adil.contract.RantaiAdil.get_project_status@8
+
+
+// smart_contracts.rantai_adil.contract.RantaiAdil.get_contributor_count[routing]() -> void:
+get_contributor_count:
+    // smart_contracts/rantai_adil/contract.py:224
+    // return self.contributors.length
+    intc_0 // 0
+    bytec_0 // "contributors"
+    app_global_get_ex
+    assert // check self.contributors exists
+    intc_0 // 0
+    extract_uint16 // on error: invalid array length header
+    // smart_contracts/rantai_adil/contract.py:216
+    // @abimethod()
+    itob
+    bytec 6 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
