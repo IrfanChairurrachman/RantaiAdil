@@ -1,5 +1,5 @@
-from algopy import ARC4Contract, String, UInt64, Txn, Global, gtxn, itxn, urange
-from algopy.arc4 import abimethod, Address, DynamicArray, Struct
+from algopy import ARC4Contract, String, UInt64, Txn, Global, gtxn, itxn, urange, BoxMap
+from algopy.arc4 import abimethod, Address, Struct
 # from algopy import ARC4Contract, String
 # from algopy.arc4 import abimethod
 
@@ -30,7 +30,8 @@ class RantaiAdil(ARC4Contract):
         self.total_funded = UInt64(0)  # Total amount funded by client
         self.is_locked = False  # Whether contributor list is locked
         self.is_completed = False  # Whether project is completed
-        self.contributors = DynamicArray[Contributor]()  # List of contributors
+        self.contributor_count = UInt64(0)  # Number of contributors
+        self.contributors = BoxMap(UInt64, Contributor)  # Contributors stored in box storage
     
     @abimethod()
     def setup_project(
@@ -59,30 +60,30 @@ class RantaiAdil(ARC4Contract):
     
     @abimethod()
     def add_contributor(
-        self, 
-        contributor_address: Address, 
+        self,
+        contributor_address: Address,
         share_percentage: UInt64
     ) -> String:
         """
         Add a contributor with their share percentage.
         Only manager can call this before locking.
-        
+
         Args:
             contributor_address: Address of the contributor
             share_percentage: Their share (0-100)
-            
+
         Returns:
             Success message
         """
         # Only manager can add contributors
         assert Txn.sender == self.manager, "Only manager can add contributors"
-        
+
         # Cannot add contributors after locking
         assert not self.is_locked, "Contributors list is locked"
-        
+
         # Validate percentage
         assert share_percentage > UInt64(0) and share_percentage <= UInt64(100), "Invalid percentage"
-        
+
         # Create new contributor
         new_contributor = Contributor(
             address=contributor_address,
@@ -90,8 +91,10 @@ class RantaiAdil(ARC4Contract):
             paid=False
         )
 
-        self.contributors.append(new_contributor.copy())
-        
+        # Store in box storage using index
+        self.contributors[self.contributor_count] = new_contributor.copy()
+        self.contributor_count += UInt64(1)
+
         return String("Contributor added successfully!")
     
     @abimethod()
@@ -100,28 +103,29 @@ class RantaiAdil(ARC4Contract):
         Lock the contributors list to prevent modifications.
         Only manager can call this.
         Validates that total shares equal 100%.
-        
+
         Returns:
             Success message
         """
         # Only manager can lock
         assert Txn.sender == self.manager, "Only manager can lock contributors"
-        
+
         # Cannot lock if already locked
         assert not self.is_locked, "Already locked"
-        
+
         # Must have at least one contributor
-        assert self.contributors.length > UInt64(0), "No contributors added"
-        
+        assert self.contributor_count > UInt64(0), "No contributors added"
+
         # Validate that shares sum to 100%
         total_percentage = UInt64(0)
-        for i in urange(self.contributors.length):
-            total_percentage += self.contributors[i].share_percentage
-        
+        for i in urange(self.contributor_count):
+            contributor = self.contributors[i].copy()
+            total_percentage += contributor.share_percentage
+
         assert total_percentage == UInt64(100), "Shares must sum to 100%"
-        
+
         self.is_locked = True
-        
+
         return String("Contributors list locked! Ready for funding.")
     
     @abimethod()
@@ -174,7 +178,7 @@ class RantaiAdil(ARC4Contract):
         assert not self.is_completed, "Project already completed"
         
         # Pay each contributor their share
-        for i in urange(self.contributors.length):
+        for i in urange(self.contributor_count):
             contributor = self.contributors[i].copy()
 
             if not contributor.paid:
@@ -184,8 +188,8 @@ class RantaiAdil(ARC4Contract):
                 # Send payment via inner transaction
                 itxn.Payment(
                     receiver=contributor.address.native,
-                    amount=payout_amount,
-                    fee=UInt64(0)  # Contract pays the fee
+                    amount=payout_amount
+                    # fee=UInt64(0)  # Contract pays the fee
                 ).submit()
 
                 # Mark as paid
@@ -217,8 +221,8 @@ class RantaiAdil(ARC4Contract):
     def get_contributor_count(self) -> UInt64:
         """
         Get the number of contributors.
-        
+
         Returns:
             Number of contributors
         """
-        return self.contributors.length
+        return self.contributor_count
